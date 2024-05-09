@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Website Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <p>Please provide your feedback on any problems or difficulties you faced while purchasing items on our sports website.</p>
+    
+    <form action="mailto:feedback@sportswebsite.com" method="post">
+        <h4>Type of Problem:</h4>
+        <input type="radio" id="technical" name="problemType" value="technical">
+        <label for="technical">Technical (e.g. website is down)</label><br>
+        <input type="radio" id="productUnavailable" name="problemType" value="productUnavailable">
+        <label for="productUnavailable">Product not available</label><br>
+        <input type="radio" id="missingInformation" name="problemType" value="missingInformation">
+        <label for="missingInformation">Missing information about the product</label><br><br>
+        
+        <label for="username">Username:</label><span style="color: red;">*</span><br>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="email">Email:</label><span style="color: red;">*</span><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="location">Location:</label><span style="color: red;">*</span><br>
+        <input type="text" id="location" name="location" required><br><br>
+        
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+        
+        <label for="description">Description of the Problem:</label><span style="color: red;">*</span><br>
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="notification">Notification of Problem Solved:</label>
+        <input type="checkbox" id="notification" name="notification" value="yes"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

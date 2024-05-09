@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Scheduler</title>
+    <style>
+        body{
+            font-size: 1.2rem;
+        }
+        fieldset{
+            width: 50%;
+            padding: 1%;
+            margin: 2% 0 2% 1%;
+        }
+        button{
+            margin-left: 1%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Appointment Scheduler</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" required><br>
+
+        <label for="telephoneNo.">Telephone number</label><br>
+        <input type="text" name="telephoneNo." id="telephoneNo." required><br>
+
+        <label for="email">E-mail address</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="date">Date of birth</label><br>
+        <input type="date" name="date" id="date" required><br>
+
+    </fieldset>
+    <fieldset>
+        <legend>Appointment Request</legend>
+        <label for="reason">What is the reason for your visit?</label><br>
+        <input type="text" name="reason" id="reason" required placeholder="Select or type your reason"><br>
+
+        <label for="pain">Current pain level</label><br>
+        <input type="range" name="pain" id="pain" required><br>
+
+        <label for="preferredDate">Preferred date</label>
+        <input type="date" name="preferredDate" id="preferredDate" required><br>
+
+        <label for="time">Preferred time</label><br>
+        <input type="time" name="time" id="time" required><br>
+        
+    </fieldset>
+
+    <button>Submit</button>
+</body>
+
+</html>

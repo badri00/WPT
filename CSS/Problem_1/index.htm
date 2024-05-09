@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+    <div>
+
+        <fieldset>
+            <legend>
+                Name and address
+            </legend>
+            <form action="post">
+                <table>
+                    <tr>
+                        <td>
+                            SSN:
+                        </td>
+                        <td>
+                            <input type="text" name="SSN" id="SSN">
+                            <label for="SSN" class="ssn">Fill in name and address</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Full name:
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Street and number:
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Postal Code:
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            City:
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Username and password</legend>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            Username:
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td>
+                        <td>
+                            <input type="password" id="myInput">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            <input type="checkbox" name="show" id="show" onclick="myFunction()">
+                            <label for="show" >show password</label>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+        <div>
+        <button type="submit" style="margin-left: 12%;">Register</button>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Details</title>
+    <style>
+        body {
+            background-color: black;
+        }
+       
+        td{
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+        tr td:nth-child(2){
+            padding-left: 3%;
+        }
+        tr td:first-child {
+            text-align: right;
+        }
+        .main-div {
+            background-color: #356aa0;
+            color: white;
+            width: 50%;
+        }
+        
+        input {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-div">
+        <fieldset >
+            <legend>Registration Details</legend>
+
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            University:
+                        </td>
+                        <td>
+                            <input type="text" name="university" id="university">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Institute:
+                        </td>
+                        <td>
+                            <input type="text" name="institute" id="institute">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Branch:
+                        </td>
+                        <td>
+                            <select name="branch" id="branch">
+                                <option value="test">---select---</option>
+                                <option value="cse">CSE</option>
+                                <option value="me">ME</option>
+                                <option value="eee">EEE</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Degree:
+                        </td>
+                        <td>
+                            <select name="degree" id="degree" >
+                                <option value="test">--select--</option>
+                                <option value="bsc">BSC</option>
+                                <option value="be">B.E</option>
+                            </select>
+                            <input type="radio" name="pursuing" id="pursuing">
+                            <label for="pursuing">Pursuing</label>
+
+                            <input type="radio" name="Completed" id="Completed">
+                            <label for="Completed">Completed</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Average CPI:
+                        </td>
+                        <td>
+                            <input type="number" name="first-semeter" id="first-semeter" style="width: 20%;">
+                            <label for="first-semeter">Upto</label>
+                            <input type="number" name="nth-semeter" id="nth-semeter" style="width: 20%;">
+                            <label for="Th-semeter">Th Semester</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Experience:
+                        </td>
+                        <td>
+                            <input type="number" name="experience" id="experience" style="width: 20%;">
+                            <label for="experience">Years</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Your Website or Blog:
+                        </td>
+                        <td>
+                            <input type="url" name="url" id="url" value="http://">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </fieldset>
+        <div style="display: flex; align-items: center; justify-content: center; margin: 1% 0 1% 0;">
+            <img src="./flip-button.png" width="4% " style="cursor: pointer;" >
+            <h4 style="margin: 0% 2% 0% 2%;">Step 2</h4>
+            <img src="./button.png" width="4%" type="button" style="cursor: pointer;">
+        </div>
+    </div>
+</body>
+
+</html>

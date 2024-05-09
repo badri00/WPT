@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+
+table {
+    width: 100%;
+}
+
+tr td:first-child{
+    text-align: right;
+}
+
+tr,td{
+    padding: 1% 0 1% 0;
+}
+
+fieldset {
+    border-radius: 8px;
+    border: solid 3px #3900fe;
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+legend {
+    border: solid 5px #3900fe;
+    border-radius: 8px;
+    color: white;
+    background-color: #3900fe;
+}
+
+.ssn {
+    padding: 1%;
+    border: solid 1px #3900fe;
+    border-radius: 8px;
+    color: white;
+    background-color: #3900fe;
+}
+
+input {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+button{
+    background-color: #3900fe;
+    color: white;
+    padding: 0.7%;
+    border-radius: 10px;
+}

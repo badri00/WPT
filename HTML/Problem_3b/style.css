@@ -1,0 +1,74 @@
+.main-div{
+    padding: 1.5%;
+}
+
+/* navbar */
+nav{
+    background: rgb(95, 203, 203);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 4%;
+}
+
+a:hover{
+    color: rgb(139, 101, 101);
+}
+
+/* reservations info css */
+.reservations{
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+/* table css */
+.Table-class{
+    text-align: left;
+    width: 100%;
+    border:  1px solid black;
+    border-collapse: collapse;
+}
+
+.Table-class td{
+    border:  1px solid black;
+}
+.Table-colour{
+    background-color: rgb(95, 203, 203);
+}
+.column-colour{
+    background-color: rgb(95, 203, 203);
+}
+
+
+/* Below table section */
+.bottom-left-section{
+    display: flex;
+    width: 40%;
+}
+
+.box{
+    margin: 1% 0 0 10%;
+    float: right;
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 10px;
+    padding: 0.25%;
+    box-shadow: 5px 5px 5px gray;
+    
+}
+.box table{
+    margin-left: 5%;
+}
+
+
+
+
+/* Footer */
+footer{
+    margin-top: 2%;
+    text-align: center;
+    background: rgb(95, 203, 203);
+    font-size: 0.8rem;
+}

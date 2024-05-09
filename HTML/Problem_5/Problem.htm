@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        table {
+            width: 50%;
+        }
+
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 35%; background-color: pink; ">
+        <form action="" method="post">
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" name="name" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>Employee Code</td>
+                <td>
+                    <input type="text" name="name" id="name" size="5">
+                </td>
+            </tr>
+            <tr>
+                <td>Department</td>
+                <td>
+
+                    <input type="radio" name="radio" id="radio1">
+                    <label for="radio1">ADMIN</label>
+                    <br>
+                    <input type="radio" name="radio" id="radio2">
+                    <label for="radio2">HR</label><br>
+                    <input type="radio" name="radio" id="radio3">Technical<br>
+                    <input type="radio" name="radio" id="radio4">Accounts
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Joining </td>
+                <td>
+                    <input type="date" name="date" id="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Address </td>
+                <td>
+                    <textarea name="textarea" id=""></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Training Programs Attended</td>
+                <td>
+                            <input type="checkbox" name="checkbox1" id="checkbox1" >
+                            <label for="checkbox1">HTML/DHTML</label><br>
+                      
+                            <input type="checkbox" name="checkbox2" id="checkbox2">
+                            <label for="checkbox2">JAVA</label><br>
+                      
+                            <input type="checkbox" name="checkbox3" id="checkbox3">
+                            <label for="checkbox3">CLIENT/SERVER</label><br>
+                        
+                            <input type="checkbox" name="checkbox4" id="checkbox4">
+                            <label for="checkbox4">.NET</label><br>
+                      
+                </td>
+            </tr>
+            <tr>
+                <td>Training Programmes need to attend</td>
+                <td>
+                    <select name="Programmes" id="Programmes" size="2">
+                        <option value="JAVASCRIPT">JAVASCRIPT</option>
+                        <option value="JSTRUCTS">JSTRUCTS</option>
+                        <option value="JAVA">JAVA</option>
+                        <option value=".NET">.NET</option>
+                    </select>
+            </tr>
+            <tr>
+                <td>Send the information a </td>
+                <td><a href="mailto:empinfo@patni.com">empinfo@patni.com</a></td>    
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>

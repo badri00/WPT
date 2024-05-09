@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: solid 1px black;
+            border-collapse: collapse;
+            width: 30%;
+            padding: 1%;
+        }
+
+
+        .employee {
+            text-align: center;
+            font-size: 1.2rem;
+            align-items: center;
+        }
+
+        .table {
+            display: flex;
+            justify-content: center;
+            text-align: left;
+        }
+
+        .table tr td:first-child {
+            width: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="employee">
+        <h1>Employee Details</h1>
+        <div class="table">
+            <table>
+                <tr>
+                    <td>
+                        1)
+                    </td>
+                    <td>
+                        Employee Id:
+                    </td>
+                    <td>
+                        <input type="text" name="Employeeid" id="Employeeid">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2)
+                    </td>
+                    <td>
+                        Employee Name:
+                    </td>
+                    <td>
+                        <input type="text" name="Employee Name" id="Employee Name" size="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3)
+                    </td>
+                    <td>
+                        Department Name:
+                    </td>
+                    <td>
+                        <select name="Department Name" id="Department Name">
+                            <option value="S/W">S/W</option>
+                            <option value="P/W">P/W</option>
+                            <option value="A/W">A/W</option>
+                            <option value="L/M">L/M</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4)
+                    </td>
+                    <td>
+                        Gender:
+
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" id="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" name="Gender" id="Female">
+                        <label for="Female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        5)
+                    </td>
+                    <td>
+                        Address:
+                    </td>
+                    <td>
+                        <textarea name="Address" id="Address" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        6)
+                    </td>
+                    <td>
+                        Skill Topic:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="C" id="C">
+                        <label for="C">C</label>
+                        <input type="checkbox" name="C++" id="C++">
+                        <label for="C++">C++</label>
+                        <input type="checkbox" name="Java" id="Java">
+                        <label for="Java">Java</label>
+                        <input type="checkbox" name=".Net" id=".Net">
+                        <label for=".Net">.Net</label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        7)
+                    </td>
+                    <td>
+                        E-Mail:
+                    </td>
+                    <td>
+                        <input type="text" size="8">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        8)
+                    </td>
+                    <td>
+                        Birth Date:
+                    </td>
+                    <td>
+                        <input type="date" name="BirthDate" id="BirthDate" min="2000-01-01" max="2010-31-12" required>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
